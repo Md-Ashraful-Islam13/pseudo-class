@@ -1,0 +1,44 @@
+h1{
+    background: lightcoral;
+    display: inline;
+}
+span{
+    background: limegreen;
+}
+div{
+    background: lightcoral;
+}
+a{
+    display: block;
+    background: limegreen;
+}
+.pseudo{
+    background: none;
+}
+.pseudo h1{
+    background: none;
+
+}
+.pseudo h1:hover{
+    font-size: 50px;
+    background: palevioletred;
+}
+li:first-child{
+    color: aqua;
+}
+li:last-child{
+    color: rgb(255, 0, 0);
+}
+li:nth-child(2n+1){
+    font-size: 30px;
+    background: rosybrown ;
+}
+h3::before{
+    content: 'Hello ';
+    color: aquamarine;
+}
+h3::after{
+    content: ' gelo';
+    background: burlywood;
+    font-size: 12px;
+}
